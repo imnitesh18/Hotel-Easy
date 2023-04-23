@@ -1,0 +1,37 @@
+.navbar{
+    height: 50px;
+    background-color: #f8f7f7;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 6px 18px 0px #d5d3d3;
+}
+
+.navContainer{
+    width: 100%;
+    max-width: 1024px;
+    color: #181818;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-weight: 900;
+    background: linear-gradient(
+            to right, #f32170, #ff6b08,
+             #cf23cf, #eedd44);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+}
+
+.navButton{
+    font-family: Inter, sans-serif;
+    margin-left: 20px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #181818;
+    border-radius: 5px;
+    color: #f8f7f7;
+}
